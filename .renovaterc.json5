@@ -8,7 +8,7 @@
     {
       description: "Make versioning loose",
       matchDepNames: ["cmhughes/latexindent.pl"],
-      versioning: "loose",
+      versionCompatibility: "^V(?<version>.*+)$"
     },
   ],
 }
