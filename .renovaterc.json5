@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:best-practices",
+    ":enablePreCommit",
+  ],
+  packageRules: [
+    {
+      description: "Make versioning loose",
+      matchDepNames: ["cmhughes/latexindent.pl"],
+      versioning: "loose",
+    },
+  ],
+}
+
